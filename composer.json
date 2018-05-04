@@ -15,11 +15,6 @@
       "Rbennett\\AbstractRepository\\": "src/Repositories/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    }
-  },
   "require-dev": {
     "orchestra/testbench": "~3.6"
   },
