@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Repositories\Contracts;
+namespace RBennett\Contracts;
 
 
 interface RepositoryContract

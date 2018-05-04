@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repositories\Contracts;
+namespace RBennett\Contracts;
 
-use App\Repositories\Contracts\RelationshipContract as Relationship;
+use RBennett\Contracts\RelationshipContract as Relationship;
 
 interface RepositoryRelationshipContract
 {

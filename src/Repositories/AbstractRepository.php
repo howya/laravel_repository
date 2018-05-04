@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Repositories;
+namespace RBennett\;
 
 
-use App\Repositories\Contracts\CriteriaContract as Criteria;
-use App\Repositories\Contracts\RelationshipContract as Relationship;
-use App\Repositories\Contracts\RepositoryCriteriaContract;
-use App\Repositories\Contracts\RepositoryRelationshipContract;
+use RBennett\Contracts\CriteriaContract as Criteria;
+use RBennett\Contracts\RelationshipContract as Relationship;
+use RBennett\Contracts\RepositoryCriteriaContract;
+use RBennett\Contracts\RepositoryRelationshipContract;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Application as App;
-use App\Repositories\Contracts\RepositoryContract;
+use RBennett\Contracts\RepositoryContract;
 use Illuminate\Support\Collection;
 
 abstract class AbstractRepository implements RepositoryContract, RepositoryCriteriaContract, RepositoryRelationshipContract

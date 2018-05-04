@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repositories\Criteria;
+namespace RBennett\Criteria;
 
-use App\Repositories\Contracts\CriteriaContract;
-use App\Repositories\Contracts\RepositoryContract as Repository;
+use RBennett\Contracts\CriteriaContract;
+use RBennett\Contracts\RepositoryContract as Repository;
 
 class HasNameEvenietCriteria implements CriteriaContract
 {

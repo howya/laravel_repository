@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repositories\Relationships;
+namespace RBennett\Relationships;
 
-use App\Repositories\Contracts\RelationshipContract;
-use App\Repositories\Contracts\RepositoryContract as Repository;
+use RBennett\Contracts\RelationshipContract;
+use RBennett\Contracts\RepositoryContract as Repository;
 use Illuminate\Database\Eloquent\Model;
 
 class WithDoesntHaveRelationships implements RelationshipContract

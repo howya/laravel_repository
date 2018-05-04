@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repositories\Contracts;
+namespace RBennett\Contracts;
 
-use App\Repositories\Contracts\CriteriaContract as Criteria;
+use RBennett\Contracts\CriteriaContract as Criteria;
 
 interface RepositoryCriteriaContract
 {

@@ -6,7 +6,7 @@
  * Time: 09:19
  */
 
-namespace App\Repositories;
+namespace RBennett\;
 
 
 class RepositoryException extends \Exception

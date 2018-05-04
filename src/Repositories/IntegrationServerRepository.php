@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories;
+namespace RBennett\;
 
 
 class IntegrationServerRepository extends AbstractRepository

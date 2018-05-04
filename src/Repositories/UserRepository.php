@@ -6,7 +6,7 @@
  * Time: 09:24
  */
 
-namespace App\Repositories;
+namespace RBennett\;
 
 
 class UserRepository extends AbstractRepository
