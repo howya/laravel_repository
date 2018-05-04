@@ -1,6 +1,6 @@
 <?php
 
-namespace RBennett\;
+namespace RBennett;
 
 
 use RBennett\Contracts\CriteriaContract as Criteria;
