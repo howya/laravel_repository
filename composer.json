@@ -1,0 +1,31 @@
+{
+  "name": "rbennett/laravel-repository",
+  "description": "A simple Laravel model repository abstraction",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Rob Bennett",
+      "email": "rjben@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Rbennett\\": "src/Repositories"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.6"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  }
+}
