@@ -1,6 +1,6 @@
 <?php
 
-namespace RBennett\Contracts;
+namespace RBennett\AbstractRepository\Contracts;
 
 
 interface RelationshipContract
