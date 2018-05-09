@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\Criteria;
+namespace RBennett\AbstractRepository\Criteria;
 
 use RBennett\AbstractRepository\Contracts\CriteriaContract;
 use RBennett\AbstractRepository\Contracts\RepositoryContract;
