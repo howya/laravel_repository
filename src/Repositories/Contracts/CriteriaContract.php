@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\Contracts;
+namespace RBennett\AbstractRepository\Contracts;
 
 
 interface CriteriaContract

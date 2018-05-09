@@ -12,12 +12,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Rbennett\\": "src/Repositories"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
+      "RBennett\\AbstractRepository\\": "src/Repositories/"
     }
   },
   "require-dev": {

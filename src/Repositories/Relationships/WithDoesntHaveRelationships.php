@@ -2,8 +2,8 @@
 
 namespace App\Repositories\Relationships;
 
-use App\Repositories\Contracts\RelationshipContract;
-use App\Repositories\Contracts\RepositoryContract as Repository;
+use RBennett\AbstractRepository\Contracts\RelationshipContract;
+use RBennett\AbstractRepository\Contracts\RepositoryContract as Repository;
 use Illuminate\Database\Eloquent\Model;
 
 class WithDoesntHaveRelationships implements RelationshipContract

@@ -2,9 +2,9 @@
 
 namespace App\Repositories\Criteria;
 
-use App\Repositories\Contracts\CriteriaContract;
-use App\Repositories\Contracts\RepositoryContract as Repository;
+use RBennett\AbstractRepository\Contracts\CriteriaContract;
 use Illuminate\Support\Facades\Auth;
+use RBennett\AbstractRepository\Contracts\RepositoryContract;
 
 class BelongsToUser implements CriteriaContract
 {
@@ -13,7 +13,7 @@ class BelongsToUser implements CriteriaContract
      * @param Repository $repository
      * @return mixed
      */
-    public function apply($model, Repository $repository)
+    public function apply($model, RepositoryContract $repository)
     {
         $query = $model->where('user_id', '=', Auth::id());
         return $query;

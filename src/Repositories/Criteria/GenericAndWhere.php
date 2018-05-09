@@ -2,9 +2,8 @@
 
 namespace App\Repositories\Criteria;
 
-use App\Repositories\Contracts\CriteriaContract;
-use App\Repositories\Contracts\RepositoryContract as Repository;
-use Illuminate\Support\Facades\Auth;
+use RBennett\AbstractRepository\Contracts\CriteriaContract;
+use RBennett\AbstractRepository\Contracts\RepositoryContract;
 
 class GenericAndWhere implements CriteriaContract
 {
@@ -27,9 +26,9 @@ class GenericAndWhere implements CriteriaContract
      * @param Repository $repository
      * @return mixed
      */
-    public function apply($model, Repository $repository)
+    public function apply($model, RepositoryContract $repository)
     {
-        foreach($this->criteria as $key => $value){
+        foreach ($this->criteria as $key => $value) {
             $model = $model->where($key, '=', $value);
         }
         return $model;
